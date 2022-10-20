@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <form action="" method="post" id="registration">
+        <input type="text" name="fname" id="fname" placeholder="სახელი" />
+        <p class="text" id="text_fname"></p>
+        <input type="text" name="lname" id="lname" placeholder="გვარი" />
+        <p class="text" id="text_lname"></p>
+        <input type="tel" name="tel" id="tel" placeholder="ტელეფონის ნომერი" />
+        <p class="text" id="text_tel"></p>
+        <input type="email" name="email" id="mail" placeholder="mail" />
+        <p class="text" id="text_email"></p>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="paswsword"
+        />
+        <i class="fa-solid fa-eye-slash" id="fa-eye-slash"></i>
+        <p class="text" id="text_password"></p>
+        <input
+          type="password"
+          name="Rpassword"
+          id="Rpassword"
+          placeholder="Repeat the password"
+        />
+
+        <p>გთხოვთ მიუთითოთ ზუსტი მისამართი</p>
+        <textarea name="local" id="local" cols="30" rows="10"></textarea>
+        <p>აირჩიეთ გადახდის მეთოდი</p>
+
+        <div class="buy">
+          <input type="radio" name="card" id="card" />
+          <label for="card">ბარათით გადახდა</label>
+          <input type="radio" name="card" id="cash" />
+          <label for="cash">ქეშით გადახდა</label>
+        </div>
+        <p class="text" id="text_card"></p>
+        <button id="open">რეგისტრაცია</button>
+      </form>
+    </main>
+    <footer></footer>
+    <script src="j.s/script.js"></script>
+  </body>
+</html>
